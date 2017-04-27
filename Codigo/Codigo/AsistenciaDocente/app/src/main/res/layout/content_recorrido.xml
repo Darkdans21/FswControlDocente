@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_recorrido"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fsw_android.asistenciadocente.Recorrido"
+    tools:showIn="@layout/app_bar_recorrido">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextClock
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="32dp"
+                        android:textColor="#58FA58"
+                        android:background="#000000"
+                        android:id="@+id/textClock"
+                        tools:targetApi="jelly_bean_mr1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:text="M2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="32dp"
+                        android:background="@color/color_Blanco"
+                        android:textColor="@color/color_Negro"
+                        android:layout_gravity="center"
+                        android:id="@+id/textViewHora" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="2 2 0 1"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:background="#ff6666"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8"
+                    android:layout_height="35dp"
+                    android:id="@+id/textView1"
+                    android:layout_alignTop="@+id/textView4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="M3    Hora"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:background="#FFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8"
+                    android:id="@+id/textView4" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/textView5"
+                    android:layout_below="@+id/textView1"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView7"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignBaseline="@+id/textView4"
+                    android:layout_alignBottom="@+id/textView4"
+                    android:layout_toLeftOf="@+id/textView4"
+                    android:layout_toStartOf="@+id/textView4" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="2 2 0 2"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_Verde"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:id="@+id/textView2"
+                    android:shadowRadius="1.8"
+                    android:layout_height="35dp"
+                    android:layout_alignTop="@+id/text1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="M3    Hora"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:background="#FFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:id="@+id/text1"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/te5"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text4"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignBaseline="@+id/text1"
+                    android:layout_alignBottom="@+id/text1"
+                    android:layout_toLeftOf="@+id/text1"
+                    android:layout_toStartOf="@+id/text1" />
+            </RelativeLayout>
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="2 2 0 3"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_Amarillo"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:id="@+id/textView3"
+                    android:shadowRadius="1.8"
+                    android:layout_height="35dp"
+                    android:layout_alignTop="@+id/t1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="M3    Hora"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:background="#FFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:id="@+id/t1"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/tee6"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tee4"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignBaseline="@+id/t1"
+                    android:layout_alignBottom="@+id/t1"
+                    android:layout_toLeftOf="@+id/t1"
+                    android:layout_toStartOf="@+id/t1" />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="M3    Hora"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:background="#FFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:id="@+id/teet1"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/teet5"
+                    android:layout_below="@+id/textView4"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/t4"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignBaseline="@+id/teet1"
+                    android:layout_alignBottom="@+id/teet1"
+                    android:layout_toLeftOf="@+id/teet1"
+                    android:layout_toStartOf="@+id/teet1" />
+
+                <TextView
+                    android:text="2 3 0 0    BAÑO"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_Amarillo"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:id="@+id/textViewBaño"
+                    android:shadowRadius="1.8"
+                    android:layout_height="35dp"
+                    android:layout_alignTop="@+id/teet1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:text="2 3 0 1"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#FFF"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_Amarillo"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:shadowDy="2"
+                    android:id="@+id/textViewSalon"
+                    android:shadowRadius="1.8"
+                    android:layout_height="35dp"
+                    android:layout_alignTop="@+id/t5"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="M3    Hora"
+                    android:layout_width="55dp"
+                    android:layout_height="35dp"
+                    android:textAlignment="center"
+                    android:background="#FFF"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:shadowColor="@color/colorPrimaryDark"
+                    android:shadowDx="3"
+                    android:id="@+id/t5"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.8" />
+
+                <TextView
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/tee5"
+                    android:layout_below="@+id/t5"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tee3"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignBaseline="@+id/t5"
+                    android:layout_alignBottom="@+id/t5"
+                    android:layout_toLeftOf="@+id/t5"
+                    android:layout_toStartOf="@+id/t5" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

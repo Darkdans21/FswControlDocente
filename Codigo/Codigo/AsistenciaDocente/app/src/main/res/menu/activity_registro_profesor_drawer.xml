@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/notification_green"
+            android:title="Notificaciónes" />
+        <item
+            android:id="@+id/nav_recorrido"
+            android:icon="@drawable/checklist_pen"
+            android:title="Recorrido" />
+        />
+        <item
+            android:id="@+id/nav_hacer_reporte"
+            android:icon="@drawable/plus"
+            android:title="Nuevo Reporte" />
+
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/help"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/nav_cerrrar_sesion"
+            android:icon="@drawable/exit"
+            android:title="Cerrar Sesión" />
+    </group>
+</menu>

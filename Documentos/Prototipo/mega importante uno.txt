@@ -1,0 +1,34 @@
+Control de asistencia de personal docente 
+ejemplo el CAFF
+siglas relacionadas al tema del proyecto.
+
+agregar reporte 
+opciones para cuando el prefecto no encuentre el maestro por estar en junta, o anotar un comentario de que lo registro en otro lado.
+
+lista de semaforo que solo puedas seleccionar uno despues de cumplir el anterior.
+
+hacer una lista de maestros y baños
+
+fecha y hora, guardar si  o no se registro con la huella
+
+checar quien hace la ruta y hace los cambios 
+
+problematicas a resolver
+prefecto no hace su chamba
+no hace tiempo a ruta
+resolver que pasa tarde 
+monitoriamos cuando empezo y cuando termino.
+
+agregar reporte 
+que tambien agregue foto en dado caso que el maestro si este pero no funcionen sus huellas.
+
+mapas
+crear catalogo de salones incluso con capacidad, con nomenclatura estandar salon, nivel y aula.
+
+
+orden de rangos
+
+
+Estan armados por area
+area edificio 1 y 2 
+area 2 edificio 3 y 4 y biblioteca

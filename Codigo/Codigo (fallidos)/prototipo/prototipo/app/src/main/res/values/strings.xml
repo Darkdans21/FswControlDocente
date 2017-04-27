@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Prototipo</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_eventos">Eventos</string>
+    <string name="title_activity_evento_maestros">Evento_maestros</string>
+    <string name="title_activity_evento_sanitarios">Evento_sanitarios</string>
+    <string name="title_activity_escaneo">Escaneo</string>
+    <string name="title_activity_registro_docentes">Registro_docentes</string>
+    <string name="title_activity_registro_sanitarios">Registro_sanitarios</string>
+    <string name="title_activity_huella_correcta">huella_correcta</string>
+    <string name="title_activity_huella_incorrecta">huella_incorrecta</string>
+</resources>

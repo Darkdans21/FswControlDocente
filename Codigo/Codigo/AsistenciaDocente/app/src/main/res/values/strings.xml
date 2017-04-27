@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">HuellaDigital</string>
+
+    <!--Activity Login-->
+    <string name="btnIniciarSesion_Login">Iniciar</string>
+    <string name="txtViewUsuario_Login">Usuario</string>
+    <string name="txtViewContraseña_Login">Contraseña</string>
+
+    <!--Activity Validando Login-->
+    <string name="txtViewValidacion_ValidandoLogin">Validando </string>
+
+    <!--Activity Validando Login Incorrecto-->
+    <string name="txtViewValidacionErronea_ValidandoLoginIncorrecto">Error de usuario</string>
+
+    <!--Activity Validando Login Incorrecto-->
+    <string name="txtViewValidacionCorrecta_ValidandoLoginCorrecto">Bienvenido</string>
+
+    <!--Activity Menu-->
+    <string name="btnAgregarMaestro_Menu">Agregar Maestro </string>
+    <string name="btnNuevoReporte_Menu">Nuevo Reporte</string>
+    <string name="btnIniciarRecorrido_Menu">Iniciar Recorrido </string>
+
+    <!--Activity Menu Desplegable-->
+    <string name="txtCerrarSesion_MenuDesplegable"> </string>
+    <string name="txtRecorrido_MenuDesplegable"> </string>
+    <string name="txtNuevoReporte_MenuDesplegable"> </string>
+    <string name="txtAyuda_MenuDesplegable"> </string>
+    <string name="txtNotificaciones_MenuDesplegable"> </string>
+    <string name="txtUsuario_MenuDesplegable">Prefecto: Leonardo Padilla Reyes</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="button_title_escaner_barras">Codigo de barras </string>
+    <string name="button_title_escaner_qr">Codigo QR </string>
+    <string name="txtViewCerrandoSesion">Cerrando sesión </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_escaneo">Escaneo</string>
+    <string name="title_activity_recorrido">Recorrido</string>
+    <string name="title_activity_registro_profesor">RegistroProfesor</string>
+    <string name="title_activity_registro_sanitario">RegistroSanitario</string>
+    <string name="title_activity_nuevo_reporte">NuevoReporte</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    <string name="title_activity_escaneo_sanitario">EscaneoSanitario</string>
+
+    <string name="Direccion">Pedro de Alba S/N, Cd. Universitaria </string>
+    <string name="Municipio">San Nicolás de los Garza </string>
+    <string name="Telefono">Telefono: 83294020 ext. 5888/5889</string>
+    <string name="Proposito">La Fábrica de Software es un espacio en el que participan profesores y estudiantes en el desarrollo de soluciones del entorno real, vinculando al estudiante con las mejores prácticas en los procesos de desarrollo actuales. </string>
+
+
+
+</resources>

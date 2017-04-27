@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fsw_android.asistenciadocente">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".ValidacionLogin" />
+        <activity android:name=".ValidacionLoginCorrecto" />
+        <activity android:name=".ValidacionLoginIncorrecto" />
+        <activity android:name=".CerrandoSesion" />
+        <activity android:name=".RegistroProfesorCorrecto" />
+        <activity android:name=".RegistroProfesorIncorrecto" />
+        <activity android:name=".RegistroSanitarioCorrecto" />
+        <activity android:name=".RegistroSanitarioIncorrecto" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".ValidacionLoginCorrecto"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.fsw_android.asistenciadocente.ValidacionLoginCorrecto" />
+        </activity>
+        <activity
+            android:name=".Escaneo"
+            android:label="@string/title_activity_escaneo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recorrido"
+            android:label="@string/title_activity_recorrido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistroProfesor"
+            android:label="@string/title_activity_registro_profesor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistroSanitario"
+            android:label="@string/title_activity_registro_sanitario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuevoReporte"
+            android:label="@string/title_activity_nuevo_reporte"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ayuda"
+            android:label="@string/title_activity_ayuda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EscaneoSanitario"
+            android:label="@string/title_activity_escaneo_sanitario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

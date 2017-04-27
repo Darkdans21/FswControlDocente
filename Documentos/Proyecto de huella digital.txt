@@ -1,0 +1,12 @@
+o- Historias de usuario
+o- prototipo
+o- Importante que arroje todas las faltas
+o- hacer el prototipo con pantallas para presentarlo 
+o- hacer equipo de integrantes
+o- indentificar los salones ficticios o virtuales
+o- Hacer diagramas uml
+o- Hacer diagramas de procesos
+o- Hacer diagramas de base de datos
+o-
+o-
+o-

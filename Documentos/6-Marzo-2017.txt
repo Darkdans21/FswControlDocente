@@ -1,0 +1,37 @@
+Materias semipresencias, denotar la idea que se ocupa para no confundir los salones que dan dos materias en un mismo salon, semanas 1, 3, 5 con las semanas 2, 4,6.
+
+Los prefectos pueden registrar maestrso despues de haber pasado al salon, en haberselos encontrado en el edificio o sala de juntas o asi.
+REGISTRO DOCENTES
+
+
+barra de progreso para saber el prefecto como va por hora 
+
+(>----------) 00% recorrido
+(=>---------) 10% recorrido
+(==>--------) 20% recorrido
+(===>-------) 30% recorrido
+(====>------) 40% recorrido
+(=====>-----) 50% recorrido
+(======>----) 60% recorrido
+(=======>---) 70% recorrido
+(========>--) 80% recorrido
+(=========>-) 90% recorrido
+(==========>) 100% recorrido
+
+checar POWER BI de microsoft aplicacion en la que nosa basaremos version iphone
+
+usar espaciados de en vez de color gris que sean color verde cito leve
+
+fuentes grandes y cosas redondeadas
+
+poner un segmento fijo y scroll separado de ese segmento
+
+usar colores joviales  blancos con negro una tonalidad grisacea
+
+usar ejemplos como en ihc de diseños recientes
+
+agregar un boton para permitir excepciones 
+personas que gestionan la operacion para registrar maestros depspes de no cumplir
+
+pensar si faltan prefectos recorridos. ejemplo: que verifiquen de dos horas como el miercoles y jueves
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_escaneo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.daniel.splashanimado.Escaneo"
+    tools:showIn="@layout/app_bar_escaneo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/codigo_barras"
+            android:layout_weight="1"
+            android:visibility="invisible"
+             />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/codigo_barras"
+            android:layout_weight="0.5"
+            android:id="@+id/imageButton_codigo_barras"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/codigo_barras"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    //Segundo tramo//
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Codigo de barras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_codigo_barras"
+            android:background="#7B9B7D"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+    //Tercer Tramo//
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/codigo_barras"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qr"
+            android:layout_weight="0.8"
+            android:id="@+id/imageButton_qr"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/codigo_barras"
+            android:layout_weight="1"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+    //Ultimo Tramo//
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Codigo QR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#7B9B7D"
+            android:id="@+id/btn_qr"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

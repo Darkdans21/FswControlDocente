@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:icon="@drawable/notification_green"
+            android:title="Notificaciónes" />
+        <item
+            android:id="@+id/nav_evento_maestros"
+            android:icon="@drawable/checklist_pen"
+            android:title="Registro de Maestros" />
+        <item
+            android:id="@+id/nav_evento_baños"
+            android:icon="@drawable/wc"
+            android:title="Registro de Baños" />
+        <item
+            android:id="@+id/nav_hacer_reporte"
+            android:icon="@drawable/plus"
+            android:title="Hacer Reporte" />
+
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/help"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/nav_cerrrar_sesion"
+            android:icon="@drawable/exit"
+            android:title="Cerrar Sesión" />
+    </group>
+</menu>
+
