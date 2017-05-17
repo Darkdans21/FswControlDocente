@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\dans1_000\Desktop\PaperMoon\app\libs\DeviceAPIver20141109.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8f6748376ceb0fd251e5679b9f745de9dc9f4248">
+        <dex dex="C:\Users\dans1_000\Desktop\PaperMoon\app\build\intermediates\pre-dexed\debug\DeviceAPIver20141109_38be5b9c43e44d978a5a0246b14355a4f0170cef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dans1_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\dans1_000\Desktop\PaperMoon\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d29b69c32b1a44356ad4019d0740630f205da9f9.jar" />
+    </item>
+
+</items>
